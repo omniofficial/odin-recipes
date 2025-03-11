@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(80, 75, 90);
+    box-sizing: border-box;
+}
+.header {
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+.header.main {
+    color: white;
+    margin-top: 30px;
+}
+
+.header.main img {
+    height: 400px;
+    width: auto;
+    border: 2px solid aqua;
+}
+.recipes.main ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipes.main li {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: bisque;
+    padding: 10px;
+    color: white;
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+    vertical-align: center;
+}
+
+.recipes.main li a {
+    white-space: nowrap;
+}
+
+.header.sub {
+    color: aqua;
+}
